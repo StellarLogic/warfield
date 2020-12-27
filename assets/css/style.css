@@ -592,7 +592,7 @@ footer::before {
 
 footer .phone {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: fit-content;
   font-size: 26px;

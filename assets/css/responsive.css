@@ -27,6 +27,19 @@
   .home-gallery .gallery-block .block img {
     height: 320px;
   }
+  .home-testimonial {
+    padding-top: 100px;
+  }
+  .home-testimonial .testimonial-slider {
+    padding-top: 75px;
+    padding-left: 275px;
+  }
+  .home-gallery {
+    padding-top: 150px;
+  }
+  .home-experience .count {
+    font-size: 68px;
+  }
 }
 
 /*Large devices (desktops, less than 1200px)*/
