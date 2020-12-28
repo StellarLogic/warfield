@@ -1,6 +1,6 @@
 /*Media Query Start*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
   .container,
   .container-lg,
   .container-md,
@@ -39,6 +39,135 @@
   }
   .home-experience .count {
     font-size: 68px;
+  }
+  .homeaboutus-content {
+    padding: 150px 90px 120px;
+  }
+  .home-aboutus {
+    position: relative;
+    margin-bottom: 175px;
+  }
+  .home-experience {
+    padding-top: 225px;
+  }
+  .home-gallery {
+    padding-top: 125px;
+  }
+  .navbar-brand img {
+    width: 75%;
+  }
+  header .navbar-nav .nav-item .nav-link {
+    padding: 40px 15px;
+  }
+  .title-heading h3 {
+    font-size: 52px;
+  }
+  .carousel-caption {
+    left: 35px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .home-services .service-slider-in {
+    max-width: 1345px;
+  }
+  .carousel-caption {
+    left: 32px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .home-services .service-slider-in {
+    max-width: 1195px;
+  }
+  .homeaboutus-content {
+    padding: 100px 75px 75px;
+  }
+  .homeaboutus-image {
+    top: 125px;
+  }
+  .title-heading {
+    margin-bottom: 35px;
+  }
+  .title-heading h3 {
+    font-size: 48px;
+  }
+  .custom-off {
+    margin-left: 2%;
+    padding: 0px;
+  }
+  .home-experience .block {
+    padding: 40px 25px;
+    flex: 0 0 calc(50% - 13px);
+    margin-bottom: 30px;
+    margin-right: 25px;
+    height: 225px;
+  }
+  .home-experience .count {
+    font-size: 56px;
+  }
+  .home-experience .block .dot {
+    margin-left: -5px;
+  }
+  .home-experience .blocks {
+    padding-top: 75px;
+  }
+  .home-gallery {
+    padding-top: 100px;
+  }
+
+  .home-gallery .gallery-block .block-1 {
+    grid-column: 1/4;
+  }
+  .home-gallery .gallery-block .block-5 {
+    grid-column: 1/2;
+  }
+
+  .home-gallery .gallery-block .block-3 {
+    grid-column: 1/3;
+  }
+
+  .home-gallery .gallery-block .block-4 {
+    grid-column: 3/5;
+  }
+  .home-gallery .gallery-block .block-6 {
+    grid-column: 2/5;
+  }
+  .home-testimonial {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .home-experience {
+    padding-top: 200px;
+  }
+  .home-aboutus {
+    margin-bottom: 150px;
+  }
+  .home-services .slick-arrow,
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 75px;
+  }
+  .carousel-control-next {
+    left: 75px;
+  }
+  .home-services .slick-arrow img,
+  .carousel-control-prev img,
+  .carousel-control-next img {
+    width: 40%;
+  }
+  .title-heading h3 {
+    font-size: 44px;
+  }
+  .title-heading h3:before {
+    width: 50px;
+    height: 8px;
+    bottom: -15px;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 105px;
   }
 }
 

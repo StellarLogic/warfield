@@ -53,6 +53,14 @@ p {
   color: auto;
 }
 
+.carousel-control-prev img {
+  transform: rotate(180deg);
+}
+
+.carousel-control-next img {
+  filter: invert(1);
+}
+
 .title-heading {
   position: relative;
   margin-bottom: 50px;
@@ -199,7 +207,7 @@ header .navbar-collapse {
 .carousel-caption {
   position: absolute;
   top: 50%;
-  left: 200px;
+  left: 225px;
   width: fit-content;
   transform: translate(0, -50%);
   height: fit-content;
@@ -215,7 +223,7 @@ header .navbar-collapse {
 }
 
 /*Home About us */
-section.home-aboutus {
+.home-aboutus {
   position: relative;
   margin-bottom: 145px;
 }
@@ -276,8 +284,13 @@ section.home-services {
 }
 
 .homeservice-content p {
-  color: #fff;
+  color: var(--white-color);
   font-size: 22px;
+  opacity: 0.7;
+}
+
+.homeservice-content .view-more {
+  opacity: 0.7;
 }
 
 .service-slider-outer {
@@ -440,6 +453,7 @@ section.home-services {
 .home-experience .block .text {
   line-height: 26px;
   font-weight: 500;
+  margin: 0;
 }
 
 .home-experience .count {
@@ -580,13 +594,7 @@ footer::before {
   height: 15px;
   background: rgba(255, 0, 0, 0.438);
   background-image: linear-gradient(-45deg, red 10px, blue 10px);
-  background: repeating-linear-gradient(
-    -45deg,
-    var(--yellow-color),
-    var(--yellow-color) 10px,
-    transparent 10px,
-    transparent 15px
-  );
+  background: repeating-linear-gradient(-45deg, var(--yellow-color), var(--yellow-color) 10px, transparent 10px, transparent 15px);
   transform: translate(-50%, -25%);
 }
 
@@ -665,7 +673,7 @@ footer .social-contact .icon a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 3px solid var(--white-color);
+  border: 2px solid var(--white-color);
   color: var(--white-color);
   text-decoration: none;
 }
